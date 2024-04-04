@@ -1,0 +1,47 @@
+.conteiner {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(2, 1, 41, 1) 7%,
+    rgba(9, 9, 121, 1) 38%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 80vw;
+  text-align: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.caja{
+    border: 5px solid black;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 12px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: all .5s ease-in-out;
+
+}
+
+.caja:hover{
+    background-color: white;
+    color: orange;
+
+    cursor: pointer;
+    transform: rotate(45deg);
+    transform: scale(1.1);
+    transform: skew(25deg);
+    
+
+}
+.caja:active{
+    background-color: green;
+}
